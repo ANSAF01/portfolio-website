@@ -2,227 +2,206 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohammed Ansaf-portfolio website</title>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-
-  <!-- Bootstrap CSS CDN link for responsive grid and styling utilities -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-
-  <!-- Custom CSS file for additional styles -->
-  <link rel="stylesheet" href="css/style.css" />
-
-  <!-- Google Font link for typography -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-
-  <!-- Bootstrap Icons CDN link for icon usage -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
-
-  <!-- AOS Library CSS for animations -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-  <!-- jQuery CDN link for dynamic scripting -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-  <!--emailjs-->
-  <script type="text/javascript">
-    (function () {
-      emailjs.init({
-        publicKey: "WT2nOaV5t-WK1ByzX",
-      });
-    })();
-  </script>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gadgets Gallery: Premium Accessories | Dubai</title>
+    <meta name="description"
+        content="Discover premium watches, leather bags, wallets, belts, footwear, and sunglasses at Gadgets Gallery in Dubai. Explore our curated collection of high-quality accessories.">
+    <meta name="keywords"
+        content="watches, leather bags, wallets, belts, footwear, sunglasses, accessories, Dubai, premium, luxury, fashion, online shopping">
+    <meta name="author" content="Gadgets Gallery">
+    <link rel="canonical" href="https://www.yourdomain.com/">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-  <!-- Navbar starts -->
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
-    <div class="container-fluid px-5">
-      <!-- Logo and Branding -->
-      <a class="navbar-brand fw-bold fs-2" href="#home" style="color: #3f396d">Mohammed Ansaf</a>
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logo.png" alt="Gadgets Gallery Logo" class="logo"> Gadgets Gallery
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-      <!-- Toggle button for small screens -->
-      <button class="navbar-toggle-button d-md-none" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarMenu">
-        <i class="bi bi-menu-button-fill"></i>
-      </button>
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <h1>Premium Accessories, Crafted for Excellence</h1>
+                <p>Explore our exclusive collection of Luxury Watches,Bags, and more.</p>
+                <a href="#products" class="btn btn-primary">Discover Products</a>
+            </div>
+        </section>
 
-      <!-- Navigation Links -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
-        <ul class="navbar-links navbar-nav gap-4" style="font-size: 1.1rem">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <section id="about" class="container section-spacing">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About Gadgets Gallery</h2>
+                    <p>Gadgets Gallery is a premier destination for luxury accessories in Dubai, offering a curated
+                        selection of high-quality watches, bags, and more.</p>
+                    <p>Our mission is to bring you the finest accessories that combine style, functionality, and
+                        craftsmanship. We source our products from renowned brands and artisans, ensuring that every
+                        piece meets our stringent standards of quality.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/about.jpg" class="img-fluid rounded" alt="About Us">
+                </div>
+            </div>
+        </section>
 
-      <!-- Contact Button -->
-      <a href="#contact" class="btn btn-primary ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</a>
-    </div>
-  </nav>
-  <!-- Navbar ends here -->
+        <section id="products" class="container section-spacing">
+            <h2 class="text-center">Our Products</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-watch.html"><img src="images/watch.jpg" alt="Watches"
+                            class="img-fluid rounded">
+                        <p>Watches</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-bag.html"><img src="images/bag.jpg" alt="Leather Bags"
+                            class="img-fluid rounded product-image">
+                        <p>Leather Bags</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-wallet.html"><img src="images/wallets.jpg" alt="Wallets"
+                            class="img-fluid rounded">
+                        <p>Wallets</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-belt.html"><img src="images/belt.jpg" alt="Belts" class="img-fluid rounded">
+                        <p>Belts</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-footwear.html"><img src="images/shoes.jpg" alt="Footwear"
+                            class="img-fluid rounded">
+                        <p>Footwear</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 product-item">
+                    <a href="views/product-sunglasses.html"><img src="images/sunglass.jpg" alt="Sunglasses"
+                            class="img-fluid rounded">
+                        <p>Sunglasses</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-  <!-- Hero Section -->
-  <section class="hero-section text-center py-5" id="home">
-    <div class="container">
-      <h1 class="fw-bold mb-3" style="color: #3f396d;">Hello! I’m <span class="text-primary">Ansaf</span></h1>
-      <div class="profileDiscr">
-        <p class="text-muted">A Full Stack Developer passionate about building dynamic and responsive web applications.
-        </p>
-      </div>
-      <a href="#portfolio" class="btn btn-outline-primary mt-3 px-4">See My Work</a>
-    </div>
-  </section>
+        <section id="categories" class="container section-spacing">
+            <h2 class="text-center">Explore Our Categories</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="category-card p-4 rounded">
+                        <img src="images/electronics.jpg" alt="Electronics & Accessories" class="img-fluid">
+                        <h5>Electronics & Accessories</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="category-card p-4 rounded">
+                        <img src="images/watch0.jpg" alt="Watches" class="img-fluid">
+                        <h5>Watches</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="category-card p-4 rounded">
+                        <img src="images/leather0.jpeg" alt="Leather Bags" class="img-fluid">
+                        <h5>Leather Bags</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="category-card p-4 rounded">
+                        <img src="images/shoes0.jpg" alt="Footwear" class="img-fluid">
+                        <h5>Footwear</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="category-card p-4 rounded">
+                        <img src="images/belt0.jpg" alt="Belts" class="img-fluid">
+                        <h5>Belts</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- About Section -->
-  <section class="about-section py-5 bg-light" id="about">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-4" style="color: #3f396d;">About Me</h2>
-      <div class="row align-items-center">
-        <div class="col-md-3">
-          <img src="images/profile.jpg" class="img-fluid rounded shadow" alt="About Me" />
-        </div>
-        <div class="col-md-6">
-          <p class="text-muted">
-            I am a Full Stack Web Developer with 3+ years of experience. My expertise lies in crafting efficient,
-            user-friendly, and visually stunning web applications. From front-end frameworks to back-end technologies, I
-            deliver results that exceed expectations.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="skills-section py-5" id="skills">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-4" style="color: #3f396d;">My Skills</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>Front-End</h4>
-          <ul class="list-unstyled text-muted">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Back-End</h4>
-          <ul class="list-unstyled text-muted">
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>Mongo DB</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Tools</h4>
-          <ul class="list-unstyled text-muted">
-            <li>VS Code</li>
-            <li>Git</li>
-            <li>Excel</li>
-            <li>Word</li>
-            <li>AI Technologies</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section class="portfolio-section py-5 bg-light" id="portfolio">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-4" style="color: #3f396d;">Portfolio</h2>
-      <p class="text-muted">A selection of my recent projects.</p>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <img src="images/portfolio ss.png" class="img-fluid rounded shadow" alt="Project 1" />
-          <h5 class="mt-3">Portfolio Website</h5>
-        </div>
-        <div class="col-md-4 mb-4">
-          <img src="images/netflix.jpeg" class="img-fluid rounded shadow" alt="Project 2" />
-          <h5 class="mt-3">Netflix clone</h5>
-        </div>
-        <div class="col-md-4 mb-4">
-          <img src="images/icloud.jpeg" class="img-fluid rounded shadow" alt="Project 3" />
-          <h5 class="mt-3">icloud clone</h5>
-        </div>
-      </div>
-    </div>
-  </section>
-
- <section class="contact-section py-5" id="contact">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4" style="color: #3f396d;">Get in Touch</h2>
-    <p class="text-muted">Feel free to reach out for any inquiries or collaborations.</p>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form id="contact-form">
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your Name" required />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Your Email" required />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary w-100" onclick="sendMail()">Send Message</button>
-          <div id="form-status"></div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- Footer -->
-  <footer class="bg-dark">
-    <p>Connect with me on:</p>
-    <div class="social-icons ">
-      <a href="https://linkedin.com/in/MohammedAnsaf" target="_blank"><i class="bi bi-linkedin"></i></a>
-      <a href="https://instagram.com/iam_ansaf" target="_blank"><i class="bi bi-instagram"></i></a>
-      <a href="https://github.com/ANSAF01" target="_blank"><i class="bi bi-github"></i></a>
-    </div>
-    <p>&copy; 2025 Mohammed Ansaf. All rights reserved.</p>
-  </footer>
-
-  <!-- Bootstrap and JavaScript dependencies -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-
- 
-  
-
-<script src="js/script.js"></script>
-</body>
-
-
-</html>
-
-
-
-
+        <section id="contact" class="container section-spacing">
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" action="https://formspree.io/f/xvgkoqvy" method="POST">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email:</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                            <span id="emailError" class="error-message"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message:</label>
+                            <textarea name="message" id="message" class="form-control" rows="4" required></textarea>
+                            <span id="messageError" class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-details">
+                    <address class="address">
+                        <p><strong>Gadgets Gallery General Trading LLC</strong></p>
+                        <p>Al Fahidi, Bur Dubai - Dubai <br> United Arab Emirates, P.O. BOX: 172059 <br> <a href="https://www.google.com/maps/place/Burj+Khalifa/@25.1971969,55.2721869,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43348e6267ab:0xd82647c4cb0913a0!8m2!3d25.1971969!4d55.2743756!16zL20vMDdfM2c"
+                                class="map-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> Map</a></p>
+                    </address>
+                    <div class="socials">
+                        <p><strong>Connect With Us:</strong></p>
+                        <ul class="social-links">
+                            <li>
+                                <a href="https://wa.me/+919995755348" class="whatsapp-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/gadgetsgallerys?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                    class="instagram-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                </section>
+                </main>
+                
+                <footer>
+                    <div class="container">
+                        <div class="footer-content">
+                            <div class="footer-info">
+                                <div class="footer-logo">
+                                    <img src="images/logo.png" alt="Gadgets Gallery Logo" class="footer-logo-img">
+                                </div>
+                                <div class="footer-copyright">
+                                    <p>© 2024 Gadgets Gallery General Trading LLC. All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script src="js/script.js"></script>
+                </body>
+                
+                </html>
